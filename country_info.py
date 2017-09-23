@@ -211,7 +211,7 @@ def print_data():
     end_time = time.time()
     #'Total_time' subtracts 'start_time' from 'end_time' to calculate the total time elapsed
     total_time = end_time - start_time
-    #'Decimal_total_time' is the deciaml version of 'total_time'
+    #'Decimal_total_time' is the decimal version of 'total_time'
     decimal_total_time = Decimal(total_time)
 
     print("Total Time Elapsed: " + str(round(decimal_total_time, 2)) + " seconds.")
